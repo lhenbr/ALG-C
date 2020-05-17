@@ -1,0 +1,23 @@
+cadastrar
+Felipe
+Duarte
+08977308608
++55(16)9264-9264
+cadastrar
+Karina
+Emboaba
+08977308609
++55(16)9173-2985
+cadastrar
+Edna
+Lage
+08977308610
++55(31)38344532
+dump
+buscar 08977308608
+remover 08977308608
+buscar 08977308610
+remover 08977308610
+remover 08977308611
+dump
+sair

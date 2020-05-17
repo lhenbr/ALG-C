@@ -1,0 +1,18 @@
+int jmp_counter=0,pos_counter=0,i;
+        if(pos < 0 || pos > arraylist->elements)
+            return INVALID_POS;
+
+        ARRAY_ELEM **p;
+        p=&arraylist->first;
+        while(jmp_counter<arraylist->ar_elements){
+            for(i=0;i<(*p)->counter;i++){
+                    if(pos_counter == pos){
+                        printf("%d/%d\n",(*p)->list[i].key,(*p)->list[i].value);
+                    }
+                    pos_counter++;
+            }
+            
+            p=&((*p)->next);
+            jmp_counter++;
+        }
+        return SUCCESS;
